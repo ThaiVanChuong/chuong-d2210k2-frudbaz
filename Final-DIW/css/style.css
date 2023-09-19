@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+.py-5 h5{margin:30px 0 15px 0;}
+.form-control{border-radius: 10px;}
+
+.circle{background: white; padding: 5px 9px; border-radius: 50%;
+  border: 0px solid transparent; box-shadow: 0 2px 5px grey; margin-left: 8px;
+}
+.hinhtron{
+width: 55px; height: 55px;
+border-radius: 50%;
+background: #ffff;
+	
+text-align: center; line-height: 55px;
+box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+font-size: 24px;
+}
+.box-order{width: 130px;height: 50px; border-radius: 10px; margin-left: 15px;}
+.box-order h5{color: white; margin: 12px auto;}
+.bg-img{background: url("../img/bg-img.png"); background-size: cover;}
+.pad-50px{padding: 60px 0 120px 0;}
+.navbar .badge { position:absolute; border-radius: 50%; font-size: 0.6rem; top: -8px; width: 23px; height: 20px; line-height: 15px;right: -10px }
+.abcde{height: 390px;width: 100%;;border-radius: 20px;position: absolute;bottom: 0;z-index: -1}
+.chandung{height: 230px; width: 240px;border-radius: 50%;box-sizing: border-box;margin: 20px auto;}
+.view{position: absolute; right: 15px; bottom: 15px;}
+
+.text-gach-ngang{text-decoration: line-through;}
+.bg-2mau2{
+	background: url("../img/Group 62.png") repeat-y;
+	background-position: -200px;
+}
+.bg-2mau{
+	background: url("../img/Group 62.png") repeat-y;
+}
+
+.icon {list-style: none;margin-right: 35px;}
+.icon li{padding: 0 20px;}
+.iconteam{
+	width: 30px;height: 25px;
+	border-top-right-radius: 5px; border-top-left-radius: 5px;
+	margin: 0 10px;
+	padding-top: 2px;
+}
+.hang-icon{left: 50%; bottom: 0; transform: translate(-42%);}
+.bg-nen{background: #FAF7F2;}
+
+.card2 {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  border-radius: 1rem;
+}
+
+.tm-bg{
+	background: url("../img/tm_bg 1.png") no-repeat;
+	width: 100%;
+	height: 702px;
+	position: absolute;
+	z-index: -1;
+	overflow: hidden;
+	
+}
+@media(max-width:1000px){
+	.tm-bg{width: 100%; background-position: -250px;}
+}
+.text-upcase{text-transform: uppercase;}
+
+.text-line{line-height: 1;}
+.text-line-height{line-height: 2;}
+.button-center {
+  margin: 0;
+  margin-left:   50%;
+  transform: translate(-50%);
+  
+}
+.sub-now{right: 0; top: 0;height: 49.5px; }
+
+.end{border-top: 1px solid grey;}
+ 
+.page{background: url("../img/page.png") no-repeat; background-position: 0 100px;}
+
+.btn-white{background: white; box-shadow: 0 3px 5px;}
+.hover-pink{background: white;}
+.hover-pink:hover{background-color: #FBECDE;}
+.cursor-po{cursor: pointer;}
+
+.ovuong{
+	width: 50px;
+	height: 50px;
+	background: #FAF7F2;
+	font-size: 20pt;border-radius: 5px;
+	
+}
+.fontRoboto{font-family: 'Roboto', sans-serif;}
+.border-radius-15{border-radius: 20px;}
+.cate{width: 100%; height: 35px; background: #FAF7F2;}
